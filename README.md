@@ -2,7 +2,7 @@
 
 Moving an agent on a NavMesh in Unity is great for static environments. Navigating on moving platforms (e.g. a moving ship) can be challenging regarding jitter and networking.
 
-![screenshot](screenshot.png)
+![demo](demo.gif)
 
 This project aims to solve these issues by introducing an off-screen shadow environment that contains the NavMeshes and agents of all platforms at static locations:
 
