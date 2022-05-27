@@ -1,0 +1,11 @@
+/Library
+/Publish
+/Temp
+/*.user
+/.vs/schiff/v14/*.suo
+/bin
+/Assets/Generated/Bolt.Flow/UnitOptions.db
+/MatchServer/node_modules
+/Zug.WebServer/.vs/Zug.WebServer/v14/*.suo
+/Zug.WebServer/.vs/Zug.WebServer/v15/*.suo
+/Assets/Ludiq/Bolt.Flow/Generated/UnitOptions.db
