@@ -36,19 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\schiff\ship\ShipWave.cs" />
-     <Compile Include="Assets\schiff\ship\Ship.cs" />
-     <Compile Include="Assets\schiff\Navigation\NavMeshLink.cs" />
      <Compile Include="Assets\schiff\ship\ShipSpeed.cs" />
+     <Compile Include="Assets\schiff\PlatformNpc.cs" />
+     <Compile Include="Assets\schiff\Navigation\PlatformNav.cs" />
      <Compile Include="Assets\schiff\MainObjects.cs" />
+     <Compile Include="Assets\schiff\Navigation\PlatformAgent.cs" />
      <Compile Include="Assets\schiff\Navigation\Movement.cs" />
+     <Compile Include="Assets\schiff\ship\ShipWave.cs" />
      <Compile Include="Assets\schiff\Navigation\NavProxy.cs" />
      <Compile Include="Assets\schiff\Navigation\NavSpace.cs" />
-     <Compile Include="Assets\schiff\PlatformNpc.cs" />
-     <Compile Include="Assets\schiff\Navigation\PlatformAgent.cs" />
-     <Compile Include="Assets\schiff\Navigation\PlatformNav.cs" />
      <Compile Include="Assets\schiff\ActivatePhysicsLater.cs" />
+     <Compile Include="Assets\schiff\ship\Ship.cs" />
      <Compile Include="Assets\schiff\Navigation\Platform.cs" />
+     <Compile Include="Assets\schiff\Navigation\NavMeshLink.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -765,10 +765,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{909eecc3-d1a2-5745-2afa-a6d186fae1d1}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

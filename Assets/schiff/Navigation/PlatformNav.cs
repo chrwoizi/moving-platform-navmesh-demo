@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System;
-using RootMotion.FinalIK;
 using UnityEngine.AI;
 
 namespace Assets.schiff

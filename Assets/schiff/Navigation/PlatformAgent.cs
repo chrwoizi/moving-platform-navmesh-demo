@@ -1,5 +1,4 @@
 
-using RootMotion.FinalIK;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
